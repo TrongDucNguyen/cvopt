@@ -1,0 +1,1 @@
+ssh -i dwr_cluster.pem -ND 8157 -N -L localhost:10000:localhost:10000 hadoop@ec2-18-224-93-222.us-east-2.compute.amazonaws.com
